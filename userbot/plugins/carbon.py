@@ -170,7 +170,7 @@ async def carbon_api(event):
     await event.client.send_file(
         event.chat_id,
         file,
-        caption=f"`Here's your carbon!` \n**Colour Scheme: **`{color_name}`",
+        caption=f"`Here's your carbon by✨ @itsmelegend!` \n**Colour Scheme: **`{color_name}`",
         force_document=True,
         reply_to=event.message.reply_to_msg_id,
     )
