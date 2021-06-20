@@ -1,7 +1,7 @@
-FROM sandy1709/catuserbot:latest
+FROM legend76565/catuserbot:latest
 
 #clonning repo 
-RUN git clone https://github.com/sandy1709/catuserbot.git /root/userbot
+RUN git clone https://github.com/legend76565/catuserbot.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
